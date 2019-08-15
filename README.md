@@ -1,0 +1,1 @@
+GraphQl demo server file
