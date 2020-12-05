@@ -9,7 +9,7 @@ const mongoose= require('mongoose');
 const app= express();
 
 //connect to mongoDB Atlas online
-mongoose.connect('mongodb+srv://khurshidTestDB:9435324293@freecluster-d6uok.mongodb.net/test?retryWrites=true&w=majority');
+mongoose.connect('');
 mongoose.connection.once('open', ()=>{
     console.log("Connected to mongoDB Atlas");
 })
